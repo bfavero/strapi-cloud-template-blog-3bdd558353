@@ -57,6 +57,10 @@
     },
     "badgeText": {
       "type": "string"
+    },
+    "isFeatured": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

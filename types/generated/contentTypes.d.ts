@@ -524,6 +524,7 @@ export interface ApiPlacePlace extends Struct.CollectionTypeSchema {
       true
     >;
     isBlurred: Schema.Attribute.Boolean;
+    isFeatured: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::place.place'> &
       Schema.Attribute.Private;
