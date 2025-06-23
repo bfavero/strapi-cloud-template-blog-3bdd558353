@@ -1,0 +1,852 @@
+[
+  {
+    "name": "D.O.M.",
+    "slug": "d-o-m",
+    "categories": ["restaurante"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Restaurante duas estrelas Michelin que celebra a sociobiodiversidade brasileira através da alta gastronomia autoral do chef Alex Atala."}}]
+    },
+    "adress": "Rua Barão de Capanema, 549, Jardins, São Paulo, SP",
+    "phone": "+55 11 3088-0761",
+    "website": "http://domrestaurante.com.br/",
+    "coordinates": { "lat": -23.5622, "lon": -46.6695 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Evvai",
+    "slug": "evvai",
+    "categories": ["restaurante"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Cozinha ítalo-brasileira moderna e criativa do chef Luiz Filipe Souza, com duas estrelas Michelin e foco em menus degustação."}}]
+    },
+    "adress": "Rua Joaquim Antunes, 108, Pinheiros, São Paulo, SP",
+    "phone": "+55 11 3062-1160",
+    "website": "https://www.evvai.com.br/",
+    "coordinates": { "lat": -23.5642, "lon": -46.6819 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Tuju",
+    "slug": "tuju",
+    "categories": ["restaurante"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Cozinha sazonal paulistana do chef Ivan Ralston, com duas estrelas Michelin, que explora ingredientes locais em um ambiente sofisticado."}}]
+    },
+    "adress": "Rua Frei Galvão, 135, Jardim Paulistano, São Paulo, SP",
+    "phone": "+55 11 2691-5560",
+    "website": "https://www.tuju.com.br/",
+    "coordinates": { "lat": -23.5731, "lon": -46.6853 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Cora",
+    "slug": "cora",
+    "categories": ["restaurante"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Restaurante no topo de um prédio com vista para o Minhocão, focado em cozinha de produto, com pratos sazonais para compartilhar."}}]
+    },
+    "adress": "Rua Amaral Gurgel, 344, 6º andar, Vila Buarque, São Paulo, SP",
+    "phone": "+55 11 3231-4561",
+    "website": "https://www.corarestaurante.com.br/",
+    "coordinates": { "lat": -23.5434, "lon": -46.6475 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "A Coruja Churrascaria Vegana",
+    "slug": "a-coruja-churrascaria-vegana",
+    "categories": ["restaurante"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "A primeira churrascaria 100% vegana do Brasil, oferecendo uma experiência de rodízio completa e inovadora sem produtos de origem animal."}}]
+    },
+    "adress": "Rua Tito, 25, Vila Romana, São Paulo, SP",
+    "phone": "+55 11 99994-2227",
+    "website": "https://www.instagram.com/acorujavegana/",
+    "coordinates": { "lat": -23.5283, "lon": -46.6974 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Lar Vegan",
+    "slug": "lar-vegan",
+    "categories": ["restaurante"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Um espaço de bem-estar que vai além do restaurante vegano, com loja de produtos naturais, aulas de ioga e uma proposta de cuidado integral."}}]
+    },
+    "adress": "Rua Clélia, 278, Perdizes, São Paulo, SP",
+    "phone": "+55 11 3862-1653",
+    "website": "https://larvegan.com.br/",
+    "coordinates": { "lat": -23.5273, "lon": -46.6811 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Tan Tan",
+    "slug": "tan-tan",
+    "categories": ["coquetelaria"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Bar e noodle bar de inspiração japonesa (izakaya) que une coquetelaria de alta qualidade e pratos criativos em um ambiente moderno e intimista."}}]
+    },
+    "adress": "Rua Fradique Coutinho, 153, Pinheiros, São Paulo, SP",
+    "phone": null,
+    "website": "https://www.tantannb.com.br/",
+    "coordinates": { "lat": -23.5635, "lon": -46.6917 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Pininha Drinques",
+    "slug": "pininha-drinques",
+    "categories": ["coquetelaria"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Microbar com apenas 14 lugares, focado na coquetelaria clássica e na experiência personalizada e conversada no balcão."}}]
+    },
+    "adress": "Rua Brigadeiro Galvão, 549, Barra Funda, São Paulo, SP",
+    "phone": null,
+    "website": "https://www.instagram.com/pininha.sp/",
+    "coordinates": { "lat": -23.5298, "lon": -46.6578 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Hideout The Door",
+    "slug": "hideout-the-door",
+    "categories": ["coquetelaria"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Speakeasy escondido atrás de uma pequena porta na Vila Madalena, com ambiente intimista e uma carta de 21 drinques autorais e clássicos."}}]
+    },
+    "adress": "Rua Fradique Coutinho, 1111, Pinheiros, São Paulo, SP",
+    "phone": null,
+    "website": "https://www.instagram.com/hideoutthedoor/",
+    "coordinates": { "lat": -23.5593, "lon": -46.6946 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Shiro Bar",
+    "slug": "shiro-bar",
+    "categories": ["coquetelaria"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Bar de coquetéis exclusivo com apenas 8 lugares, no andar superior do restaurante Kuro, com curadoria de rótulos japoneses e acesso apenas com reserva."}}]
+    },
+    "adress": "Rua Padre João Manuel, 712, Cerqueira César, São Paulo, SP",
+    "phone": null,
+    "website": "https://www.instagram.com/shiro.cocktailbar/",
+    "coordinates": { "lat": -23.5601, "lon": -46.6637 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "The Punch Bar",
+    "slug": "the-punch-bar",
+    "categories": ["coquetelaria"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Bar intimista com 15 lugares inspirado nos bares de Tóquio, focado na hospitalidade e em coquetéis clássicos e autorais japoneses."}}]
+    },
+    "adress": "Rua Manuel da Nóbrega, 76, Loja 17, Paraíso, São Paulo, SP",
+    "phone": "+55 11 91682-1057",
+    "website": "https://www.thepunchbar.com.br/",
+    "coordinates": { "lat": -23.5714, "lon": -46.6514 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Carrasco Bar",
+    "slug": "carrasco-bar",
+    "categories": ["coquetelaria"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Speakeasy localizado acima do Guilhotina Bar, acessível por trás de uma cortina, com ambiente calmo e drinques refinados."}}]
+    },
+    "adress": "Rua Costa Carvalho, 84, Pinheiros, São Paulo, SP",
+    "phone": null,
+    "website": "https://www.instagram.com/carrascobar.sp/",
+    "coordinates": { "lat": -23.5639, "lon": -46.6997 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Coffee Lab",
+    "slug": "coffee-lab",
+    "categories": ["cafe"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Uma das pioneiras do café especial em São Paulo, funcionando como cafeteria-escola com foco na educação do consumidor e na história de cada grão."}}]
+    },
+    "adress": "Rua Fradique Coutinho, 1340, Vila Madalena, São Paulo, SP",
+    "phone": "+55 11 3375-7400",
+    "website": "https://coffeelab.com.br/",
+    "coordinates": { "lat": -23.5557, "lon": -46.6953 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "UM Coffee Co.",
+    "slug": "um-coffee-co",
+    "categories": ["cafe"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Cafeteria e torrefação de uma família de produtores, controlando o café da fazenda à xícara e contando com baristas campeões mundiais."}}]
+    },
+    "adress": "Rua Júlio Conceição, 553, Bom Retiro, São Paulo, SP",
+    "phone": "+55 11 94396-9382",
+    "website": "https://umcoffeeco.com.br/",
+    "coordinates": { "lat": -23.5282, "lon": -46.6387 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Futuro Refeitório",
+    "slug": "futuro-refeitorio",
+    "categories": ["cafe"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Espaço multifuncional com torrefação própria, pães de fermentação natural e uma cozinha criativa, com uma filosofia de \"criar o futuro\"."}}]
+    },
+    "adress": "Rua Cônego Eugênio Leite, 808, Pinheiros, São Paulo, SP",
+    "phone": "+55 11 3034-4464",
+    "website": "https://www.instagram.com/futurorefeitorio/",
+    "coordinates": { "lat": -23.5630, "lon": -46.6853 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Botanikafé",
+    "slug": "botanikafe",
+    "categories": ["cafe"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Um oásis urbano que combina a cultura do brunch o dia todo com um ambiente exuberante, repleto de plantas e decoração aconchegante."}}]
+    },
+    "adress": "Alameda Lorena, 1765, Jardins, São Paulo, SP",
+    "phone": "+55 11 3064-8919",
+    "website": "https://www.botanikafe.com/",
+    "coordinates": { "lat": -23.5621, "lon": -46.6713 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Fora da Lei Café",
+    "slug": "fora-da-lei-cafe",
+    "categories": ["cafe"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Cafeteria que começou como um truck em uma Ford 1969 e mantém o espírito \"fora da lei\" com microlotes e \"contrabandos\" de grãos internacionais."}}]
+    },
+    "adress": "Rua Cubatão, 131, Paraíso, São Paulo, SP",
+    "phone": null,
+    "website": "https://www.instagram.com/foradalei.cafe/",
+    "coordinates": { "lat": -23.5714, "lon": -46.6436 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Catarina Coffee&Love",
+    "slug": "catarina-coffeeandlove",
+    "categories": ["cafe"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Microtorrefação de cafés especiais que abre como cafeteria apenas nos fins de semana, criando uma experiência exclusiva e focada no produto."}}]
+    },
+    "adress": "Rua Flávio de Melo, 109, Vila Mariana, São Paulo, SP",
+    "phone": null,
+    "website": "https://www.catarinacoffeeandlove.com/",
+    "coordinates": { "lat": -23.5857, "lon": -46.6346 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Mica Crafted Chocolates",
+    "slug": "mica-crafted-chocolates",
+    "categories": ["doces-delis"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Loja-fábrica dedicada à arte dos bombons autorais, com um design colorido e sabores que vão do clássico ao sazonal."}}]
+    },
+    "adress": "Rua Artur de Azevedo, 1199, Pinheiros, São Paulo, SP",
+    "phone": "+55 11 99749-2248",
+    "website": "https://www.micachocolates.com.br/",
+    "coordinates": { "lat": -23.5601, "lon": -46.6833 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Tiramissu Sossi",
+    "slug": "tiramissu-sossi",
+    "categories": ["doces-delis"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "A primeira loja do Brasil especializada exclusivamente em tiramisù, oferecendo a sobremesa clássica e variações criativas."}}]
+    },
+    "adress": "Rua Marselhesa, 447, Vila Mariana, São Paulo, SP",
+    "phone": "+55 11 97580-0013",
+    "website": "https://www.tiramisusossi.com.br/",
+    "coordinates": { "lat": -23.5936, "lon": -46.6375 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "ASA Brechó",
+    "slug": "asa-brecho",
+    "categories": ["moda"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Brechó com curadoria de qualidade e propósito social, onde as compras ajudam a financiar projetos da Associação Santo Agostinho."}}]
+    },
+    "adress": "Rua Fradique Coutinho, 352, Pinheiros, São Paulo, SP",
+    "phone": "+55 11 3062-2115",
+    "website": "https://www.asabrecho.org.br/",
+    "coordinates": { "lat": -23.5627, "lon": -46.6903 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Brechó Boutique Vintage",
+    "slug": "brecho-boutique-vintage",
+    "categories": ["moda"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Brechó e antiquário com curadoria especializada em peças e acessórios vintage, para quem busca itens com história."}}]
+    },
+    "adress": "Rua da Mooca, 1721, Mooca, São Paulo, SP",
+    "phone": "+55 11 99933-9976",
+    "website": "https://www.brechoboutiquevintage.com.br/",
+    "coordinates": { "lat": -23.5539, "lon": -46.6062 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Capricho à Toa",
+    "slug": "capricho-a-toa",
+    "categories": ["moda"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Considerado um dos maiores brechós da América Latina, com três andares e reposição diária de mais de mil peças."}}]
+    },
+    "adress": "Rua Heitor Penteado, 1096, Vila Madalena, São Paulo, SP",
+    "phone": "+55 11 3872-4299",
+    "website": "https://www.caprichoatoa.com.br/",
+    "coordinates": { "lat": -23.5489, "lon": -46.6946 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Helena Pontes Ateliê",
+    "slug": "helena-pontes-atelie",
+    "categories": ["moda"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Ateliê de moda autoral com design atemporal, focado em matéria-prima nacional e acabamentos especiais em um charmoso sobrado."}}]
+    },
+    "adress": "Rua Cônego Eugênio Leite, 1047, Pinheiros, São Paulo, SP",
+    "phone": "+55 11 99232-1522",
+    "website": "https://www.helenapontes.com/",
+    "coordinates": { "lat": -23.5647, "lon": -46.6853 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Iara Wisnik Ateliê",
+    "slug": "iara-wisnik-atelie",
+    "categories": ["moda"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Marca de moda autoral que aposta em coleções com referências culturais e propõe uma forma mais consciente de consumo."}}]
+    },
+    "adress": "Rua Aspicuelta, 323, Vila Madalena, São Paulo, SP",
+    "phone": "+55 11 99887-8742",
+    "website": "https://iarawisnik.com/",
+    "coordinates": { "lat": -23.5526, "lon": -46.6936 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Normando",
+    "slug": "normando",
+    "categories": ["moda"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Ateliê de moda autoral focado em atemporalidade, sustentabilidade e no intercâmbio de saberes, com forte inspiração na cultura amazônica."}}]
+    },
+    "adress": "Rua João Moura, 1003, Pinheiros, São Paulo, SP",
+    "phone": null,
+    "website": "https://www.normando.co/",
+    "coordinates": { "lat": -23.5593, "lon": -46.6811 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Egueiras",
+    "slug": "egueiras",
+    "categories": ["moda"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Marca de moda autoral criada por duas irmãs com uma proposta de peças sem gênero, \"irrestrito como somos\"."}}]
+    },
+    "adress": "Alameda Lorena, 578, Jardins, São Paulo, SP",
+    "phone": "+55 11 91307-2933",
+    "website": "https://www.egueiras.com.br/",
+    "coordinates": { "lat": -23.5639, "lon": -46.6575 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "MINIMAL",
+    "slug": "minimal",
+    "categories": ["moda"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Marca de moda autoral com peças versáteis e atemporais, que atualiza clássicos com sofisticação e fomenta uma cadeia produtiva justa."}}]
+    },
+    "adress": "Rua dos Tamanás, 280, Vila Madalena, São Paulo, SP",
+    "phone": "+55 11 91740-4940",
+    "website": "https://www.beminimal.com.br/",
+    "coordinates": { "lat": -23.5555, "lon": -46.7027 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Gato Sem Rabo",
+    "slug": "gato-sem-rabo",
+    "categories": ["livrarias"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Livraria de rua independente e espaço de ativismo cultural, com acervo especializado em livros escritos por mulheres e pessoas trans."}}]
+    },
+    "adress": "Rua Amaral Gurgel, 352, Vila Buarque, São Paulo, SP",
+    "phone": "+55 11 3214-5364",
+    "website": "https://www.gatosemrabo.com.br/",
+    "coordinates": { "lat": -23.5434, "lon": -46.6479 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Megafauna",
+    "slug": "megafauna",
+    "categories": ["livrarias"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Livraria no térreo do icônico Edifício Copan, que funciona como um polo cultural com intensa programação de debates e lançamentos."}}]
+    },
+    "adress": "Av. Ipiranga, 200, Loja 53, República, São Paulo, SP",
+    "phone": "+55 11 3154-0469",
+    "website": "https://www.livrariamegafauna.com.br/",
+    "coordinates": { "lat": -23.5463, "lon": -46.6444 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Livraria da Tarde",
+    "slug": "livraria-da-tarde",
+    "categories": ["livrarias"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Charmosa livraria de rua que combina uma curadoria cuidadosa de livros com um café aconchegante, criando um refúgio para leitores."}}]
+    },
+    "adress": "Rua Cônego Eugênio Leite, 956, Pinheiros, São Paulo, SP",
+    "phone": "+55 11 3062-9171",
+    "website": "https://www.livrariadatarde.com.br/",
+    "coordinates": { "lat": -23.5641, "lon": -46.6858 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Banca Tatuí",
+    "slug": "banca-tatui",
+    "categories": ["livrarias"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Ponto de encontro da cena literária alternativa, esta banca é especializada em livros, zines e revistas de editoras independentes."}}]
+    },
+    "adress": "Rua Barão de Tatuí, 275, Santa Cecília, São Paulo, SP",
+    "phone": null,
+    "website": "http://bancatatui.com.br/",
+    "coordinates": { "lat": -23.5383, "lon": -46.6521 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Aigo Livros",
+    "slug": "aigo-livros",
+    "categories": ["livrarias"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Livraria independente e multicultural com curadoria focada em livros que tratam de deslocamentos, migrações e as diásporas do bairro."}}]
+    },
+    "adress": "Rua Ribeiro de Lima, 453, Loja 73, Bom Retiro, São Paulo, SP",
+    "phone": null,
+    "website": "https://www.aigolivros.com.br/",
+    "coordinates": { "lat": -23.5305, "lon": -46.6373 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Pé de Livro",
+    "slug": "pe-de-livro",
+    "categories": ["livrarias"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Livraria especializada em literatura infantil, com um espaço acolhedor e uma curadoria que visa formar leitores desde a infância."}}]
+    },
+    "adress": "Rua Tucuna, 298, Pompeia, São Paulo, SP",
+    "phone": "+55 11 98357-1234",
+    "website": "https://www.instagram.com/pedelivro/",
+    "coordinates": { "lat": -23.5298, "lon": -46.6834 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Miúda Livraria",
+    "slug": "miuda-livraria",
+    "categories": ["livrarias"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Livraria para a infância com acervo organizado por temas e conceitos, incentivando uma exploração livre e criativa da leitura."}}]
+    },
+    "adress": "Rua Coronel Melo de Oliveira, 766, Pompeia, São Paulo, SP",
+    "phone": "+55 11 93775-6111",
+    "website": "https://www.miudalivraria.com.br/",
+    "coordinates": { "lat": -23.5256, "lon": -46.6886 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Casarão do Vinil",
+    "slug": "casarao-do-vinil",
+    "categories": ["lojas-de-discos"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "A maior loja de discos de vinil da América Latina, com um acervo de mais de um milhão de títulos, sendo um destino obrigatório para colecionadores."}}]
+    },
+    "adress": "Rua dos Trilhos, 1212, Mooca, São Paulo, SP",
+    "phone": "+55 11 2692-9533",
+    "website": "https://casaraodovinil.com.br/",
+    "coordinates": { "lat": -23.5539, "lon": -46.5991 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Patuá Discos",
+    "slug": "patua-discos",
+    "categories": ["lojas-de-discos"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Loja de discos especializada em raridades e gêneros variados, como música brasileira, afro, latin grooves e jazz."}}]
+    },
+    "adress": "Rua Fidalga, 516, Vila Madalena, São Paulo, SP",
+    "phone": "+55 11 2925-9433",
+    "website": "http://www.patuadiscos.com.br/",
+    "coordinates": { "lat": -23.5533, "lon": -46.6961 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Sensorial Discos",
+    "slug": "sensorial-discos",
+    "categories": ["coquetelaria", "lojas-de-discos"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Espaço híbrido que une loja de discos, bar com mais de 130 rótulos de cervejas especiais, café e palco para shows e eventos."}}]
+    },
+    "adress": "Rua Augusta, 2389, Cerqueira César, São Paulo, SP",
+    "phone": "+55 11 3061-2911",
+    "website": "https://www.instagram.com/sensorialdiscos/",
+    "coordinates": { "lat": -23.5593, "lon": -46.6690 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Baratos Afins",
+    "slug": "baratos-afins",
+    "categories": ["lojas-de-discos"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Loja e selo musical pioneiro na cena independente de São Paulo desde 1978, um marco histórico do rock e da vanguarda nacional."}}]
+    },
+    "adress": "Galeria do Rock, Av. São João, 439, 2º andar, Loja 314, República, São Paulo, SP",
+    "phone": "+55 11 3223-3629",
+    "website": "https://www.baratosafins.com.br/",
+    "coordinates": { "lat": -23.5422, "lon": -46.6385 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Eric Discos",
+    "slug": "eric-discos",
+    "categories": ["lojas-de-discos"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Charmosa loja de discos com mais de 50 mil itens, incluindo vinis, CDs, DVDs e livros, um verdadeiro \"túnel do tempo\" para melômanos."}}]
+    },
+    "adress": "Rua Artur de Azevedo, 1874, Pinheiros, São Paulo, SP",
+    "phone": "+55 11 3081-8176",
+    "website": "https://www.instagram.com/ericdiscos/",
+    "coordinates": { "lat": -23.5600, "lon": -46.6891 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Boobam",
+    "slug": "boobam",
+    "categories": ["design-e-arte"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Loja física de uma das principais plataformas de design autoral brasileiro, conectando criadores e consumidores em um espaço com projeto de Felipe Hess."}}]
+    },
+    "adress": "Rua Fradique Coutinho, 967, Pinheiros, São Paulo, SP",
+    "phone": null,
+    "website": "https://boobam.com.br/",
+    "coordinates": { "lat": -23.5599, "lon": -46.6938 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Paiol",
+    "slug": "paiol",
+    "categories": ["design-e-arte"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Loja que celebra o artesanato e a arte popular brasileira, com uma curadoria que valoriza a arte indígena e o trabalho de artesãos de todo o país."}}]
+    },
+    "adress": "Rua Fradique Coutinho, 172, Pinheiros, São Paulo, SP",
+    "phone": null,
+    "website": "https://www.lojapaiol.com.br/",
+    "coordinates": { "lat": -23.5639, "lon": -46.6913 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Ateliê Marte Cerâmica",
+    "slug": "atelie-marte-ceramica",
+    "categories": ["design-e-arte"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Ateliê de cerâmica que oferece aulas de modelagem, torno e escultura em um ambiente criativo e descontraído."}}]
+    },
+    "adress": "Av. Conselheiro Rodrigues Alves, 256, 1º Andar, Vila Mariana, São Paulo, SP",
+    "phone": "+55 11 98822-0470",
+    "website": "https://www.instagram.com/ateliemarteceramica/",
+    "coordinates": { "lat": -23.5824, "lon": -46.6433 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Olaria Paulistana",
+    "slug": "olaria-paulistana",
+    "categories": ["design-e-arte"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Ateliê e loja de cerâmica artesanal especializada em peças utilitárias de alta temperatura, com design único e funcional."}}]
+    },
+    "adress": "Rua Mourato Coelho, 1433, Vila Madalena, São Paulo, SP",
+    "phone": "+55 11 3812-7201",
+    "website": "https://www.olariapaulistana.com/",
+    "coordinates": { "lat": -23.5552, "lon": -46.6974 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Terra W Estúdio",
+    "slug": "terra-w-estudio",
+    "categories": ["design-e-arte"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Um \"lugar de artes e encontros\" que combina ateliê de cerâmica, loja de peças autorais e um espaço para descobertas criativas."}}]
+    },
+    "adress": "Av. Pedroso de Morais, 2301, Pinheiros, São Paulo, SP",
+    "phone": "+55 11 99335-5026",
+    "website": "https://www.terrawestudio.com.br/",
+    "coordinates": { "lat": -23.5630, "lon": -46.7056 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Verve Galeria",
+    "slug": "verve-galeria",
+    "categories": ["design-e-arte"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Galeria de arte contemporânea em um prédio histórico, que busca conectar a produção artística com o público e o patrimônio arquitetônico da cidade."}}]
+    },
+    "adress": "Av. Ipiranga, 200, Loja 60 (Edifício Louvre), República, São Paulo, SP",
+    "phone": "+55 11 3237-3215",
+    "website": "https://www.vervegaleria.com/",
+    "coordinates": { "lat": -23.5459, "lon": -46.6427 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Paper House",
+    "slug": "paper-house",
+    "categories": ["design-e-arte"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Papelaria de autor desde 1983, especializada em convites, cartões e artigos de papelaria personalizados com design sofisticado."}}]
+    },
+    "adress": "Rua Oscar Freire, 281, Jardins, São Paulo, SP",
+    "phone": "+55 11 3062-8177",
+    "website": "https://paperhouse.com.br/",
+    "coordinates": { "lat": -23.5606, "lon": -46.6663 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Selvvva",
+    "slug": "selvvva",
+    "categories": ["plantas"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Loja de plantas e estúdio de design que cria sua própria linha de suportes e cachepôs, promovendo uma vida mais verde com estética urbana."}}]
+    },
+    "adress": "Rua Wisard, 44, Vila Madalena, São Paulo, SP",
+    "phone": "+55 11 3586-2137",
+    "website": "https://selvvva.com/",
+    "coordinates": { "lat": -23.5524, "lon": -46.6923 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Clementina Café e Flores",
+    "slug": "clementina-cafe-e-flores",
+    "categories": ["cafe"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Um charmoso café que integra a delicadeza de uma floricultura, oferecendo um refúgio tranquilo com bolos, cafés e arranjos florais."}}]
+    },
+    "adress": "Rua Clementina, 128, Vila Clementino, São Paulo, SP",
+    "phone": "+55 11 5083-4914",
+    "website": null,
+    "coordinates": { "lat": -23.5997, "lon": -46.6433 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  },
+  {
+    "name": "Le Blé Casa de Flores",
+    "slug": "le-ble-casa-de-flores",
+    "categories": ["cafe"],
+    "description": {
+      "blocks": [{"type": "paragraph", "data": {"text": "Espaço que combina a expertise de uma floricultura de luxo com um café elegante, ideal para uma pausa sofisticada entre flores e pâtisserie."}}]
+    },
+    "adress": "Rua Doutor Melo Alves, 505, Jardins, São Paulo, SP",
+    "phone": "+55 11 3578-8955",
+    "website": "https://www.leblecasadepaes.com.br/",
+    "coordinates": { "lat": -23.5623, "lon": -46.6680 },
+    "image": [],
+    "openingHours": {},
+    "isBlurred": false,
+    "badgeText": "",
+    "isFeatured": false
+  }
+]

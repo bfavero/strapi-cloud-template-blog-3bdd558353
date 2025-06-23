@@ -1,0 +1,140 @@
+[
+    {
+      "name": "Restaurante",
+      "slug": "restaurante",
+      "icon": "utensils",
+      "places": [
+        "d-o-m",
+        "evvai",
+        "tuju",
+        "cora",
+        "a-coruja-churrascaria-vegana",
+        "lar-vegan"
+      ]
+    },
+    {
+      "name": "Café",
+      "slug": "cafe",
+      "icon": "coffee",
+      "places": [
+        "coffee-lab",
+        "um-coffee-co",
+        "futuro-refeitorio",
+        "botanikafe",
+        "fora-da-lei-cafe",
+        "catarina-coffeeandlove",
+        "clementina-cafe-e-flores",
+        "le-ble-casa-de-flores"
+      ]
+    },
+    {
+      "name": "Doces & Delis",
+      "slug": "doces-delis",
+      "icon": "ice-cream",
+      "places": [
+        "mica-crafted-chocolates",
+        "tiramissu-sossi"
+      ]
+    },
+    {
+      "name": "Pizza",
+      "slug": "pizza",
+      "icon": "pizza-slice",
+      "places": []
+    },
+    {
+      "name": "Coquetelaria",
+      "slug": "coquetelaria",
+      "icon": "martini-glass-citrus",
+      "places": [
+        "tan-tan",
+        "pininha-drinques",
+        "hideout-the-door",
+        "shiro-bar",
+        "the-punch-bar",
+        "carrasco-bar",
+        "sensorial-discos"
+      ]
+    },
+    {
+      "name": "Boteco",
+      "slug": "boteco",
+      "icon": "beer-mug-empty",
+      "places": []
+    },
+    {
+      "name": "Bar de vinhos",
+      "slug": "bar-de-vinhos",
+      "icon": "wine-glass",
+      "places": []
+    },
+    {
+      "name": "Cervejaria",
+      "slug": "cervejaria",
+      "icon": "beer",
+      "places": []
+    },
+    {
+      "name": "Moda",
+      "slug": "moda",
+      "icon": "shirt",
+      "places": [
+        "asa-brecho",
+        "brecho-boutique-vintage",
+        "capricho-a-toa",
+        "helena-pontes-atelie",
+        "iara-wisnik-atelie",
+        "normando",
+        "egueiras",
+        "minimal"
+      ]
+    },
+    {
+      "name": "Livrarias",
+      "slug": "livrarias",
+      "icon": "book-open",
+      "places": [
+        "gato-sem-rabo",
+        "megafauna",
+        "livraria-da-tarde",
+        "banca-tatui",
+        "aigo-livros",
+        "pe-de-livro",
+        "miuda-livraria"
+      ]
+    },
+    {
+      "name": "Lojas de Discos",
+      "slug": "lojas-de-discos",
+      "icon": "record-vinyl",
+      "places": [
+        "casarao-do-vinil",
+        "patua-discos",
+        "sensorial-discos",
+        "baratos-afins",
+        "eric-discos"
+      ]
+    },
+    {
+      "name": "Design e Arte",
+      "slug": "design-e-arte",
+      "icon": "palette",
+      "places": [
+        "boobam",
+        "paiol",
+        "atelie-marte-ceramica",
+        "olaria-paulistana",
+        "terra-w-estudio",
+        "verve-galeria",
+        "paper-house"
+      ]
+    },
+    {
+      "name": "Plantas",
+      "slug": "plantas",
+      "icon": "leaf",
+      "places": [
+        "selvvva"
+      ]
+    }
+  ]

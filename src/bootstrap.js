@@ -244,6 +244,7 @@ async function importSeedData() {
     author: ['find', 'findOne'],
     global: ['find', 'findOne'],
     about: ['find', 'findOne'],
+    place: ['find', 'findOne'],
   });
 
   // Create all entries
@@ -252,6 +253,156 @@ async function importSeedData() {
   await importArticles();
   await importGlobal();
   await importAbout();
+}
+
+async function shouldImportCustomData() {
+  const pluginStore = strapi.store({
+    environment: strapi.config.environment,
+    type: 'type',
+    name: 'setup',
+  });
+  const customDataHasRun = await pluginStore.get({ key: 'customDataHasRun' });
+  await pluginStore.set({ key: 'customDataHasRun', value: true });
+  return !customDataHasRun;
+}
+
+async function importCustomData() {
+  const shouldImport = await shouldImportCustomData();
+  
+  if (shouldImport) {
+    try {
+      console.log('Importing custom places and categories...');
+      
+      // Set permissions for places content type
+      await setPublicPermissions({
+        place: ['find', 'findOne'],
+      });
+      
+      // Read the custom data files
+      const placesData = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'places.json'), 'utf8'));
+      const categoriesData = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'categories.json'), 'utf8'));
+
+      // First, upsert categories and store them for reference
+      console.log('Upserting custom categories...');
+      const categoryMap = new Map(); // slug -> category id
+      
+      for (const category of categoriesData) {
+        try {
+          // Check if category exists by slug
+          const existingCategory = await strapi.entityService.findMany('api::category.category', {
+            filters: { slug: category.slug }
+          });
+          
+          let categoryId;
+          if (existingCategory && existingCategory.length > 0) {
+            // Update existing category
+            const updatedCategory = await strapi.entityService.update('api::category.category', existingCategory[0].id, {
+              data: {
+                name: category.name,
+                slug: category.slug,
+                description: category.description
+              }
+            });
+            categoryId = updatedCategory.id;
+            console.log(`✓ Category "${category.name}" updated successfully`);
+          } else {
+            // Create new category
+            const newCategory = await strapi.entityService.create('api::category.category', {
+              data: {
+                name: category.name,
+                slug: category.slug,
+                description: category.description
+              }
+            });
+            categoryId = newCategory.id;
+            console.log(`✓ Category "${category.name}" created successfully`);
+          }
+          
+          // Store the category id for later use
+          categoryMap.set(category.slug, categoryId);
+          
+        } catch (error) {
+          console.error(`✗ Error importing category "${category.name}":`, error.message);
+        }
+      }
+
+      // Then, upsert places with proper category relationships
+      console.log('Upserting custom places...');
+      for (const place of placesData) {
+        try {
+          // Prepare category relationships
+          const categoryIds = [];
+          if (place.categories && Array.isArray(place.categories)) {
+            for (const categorySlug of place.categories) {
+              const categoryId = categoryMap.get(categorySlug);
+              if (categoryId) {
+                categoryIds.push(categoryId);
+              } else {
+                console.warn(`⚠ Warning: Category "${categorySlug}" not found for place "${place.name}"`);
+              }
+            }
+          }
+          
+          // Check if place exists by slug
+          const existingPlace = await strapi.entityService.findMany('api::place.place', {
+            filters: { slug: place.slug }
+          });
+          
+          const placeData = {
+            name: place.name,
+            slug: place.slug,
+            description: place.description,
+            adress: place.adress,
+            phone: place.phone,
+            website: place.website,
+            coordinates: place.coordinates,
+            image: place.image,
+            openingHours: place.openingHours,
+            isBlurred: place.isBlurred,
+            badgeText: place.badgeText,
+            isFeatured: place.isFeatured
+          };
+          
+          // Add category relationship if we have category IDs
+          if (categoryIds.length > 0) {
+            placeData.categories = categoryIds;
+          }
+          
+          if (existingPlace && existingPlace.length > 0) {
+            // Update existing place
+            await strapi.entityService.update('api::place.place', existingPlace[0].id, {
+              data: placeData
+            });
+            console.log(`✓ Place "${place.name}" updated successfully`);
+          } else {
+            // Create new place
+            await strapi.entityService.create('api::place.place', {
+              data: placeData
+            });
+            console.log(`✓ Place "${place.name}" created successfully`);
+          }
+          
+        } catch (error) {
+          console.error(`✗ Error importing place "${place.name}":`, error.message);
+        }
+      }
+
+      // Mark custom data as imported
+      const pluginStore = strapi.store({
+        environment: strapi.config.environment,
+        type: 'type',
+        name: 'setup',
+      });
+      await pluginStore.set({ key: 'customDataHasRun', value: true });
+
+      console.log('Custom data import completed!');
+      
+    } catch (error) {
+      console.error('Error during custom data import:', error);
+    }
+  } else {
+    console.log('Custom data has already been imported. We cannot reimport unless you clear the custom data flag.');
+  }
 }
 
 async function main() {
@@ -263,6 +414,9 @@ async function main() {
   app.log.level = 'error';
 
   await seedExampleApp();
+  
+  // Import custom data after seed data
+  await importCustomData();
   await app.destroy();
 
   process.exit(0);
@@ -271,4 +425,6 @@ async function main() {
 
 module.exports = async () => {
   await seedExampleApp();
+  // Import custom data after seed data
+  await importCustomData();
 };
