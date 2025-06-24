@@ -3,7 +3,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const mime = require('mime-types');
-const { categories, authors, articles, global, about } = require('../data/data.json');
+// const { categories, authors, articles, global, about } = require('../data/data.json'); // DISABLED: Auto-import disabled
 
 async function seedExampleApp() {
   const shouldImportSeedData = await isFirstRun();
@@ -166,75 +166,79 @@ async function updateBlocks(blocks) {
   return updatedBlocks;
 }
 
-async function importArticles() {
-  for (const article of articles) {
-    const cover = await checkFileExistsBeforeUpload([`${article.slug}.jpg`]);
-    const updatedBlocks = await updateBlocks(article.blocks);
+// async function importArticles() {
+//   for (const article of articles) {
+//     const cover = await checkFileExistsBeforeUpload([`${article.slug}.jpg`]);
+//     const updatedBlocks = await updateBlocks(article.blocks);
 
-    await createEntry({
-      model: 'article',
-      entry: {
-        ...article,
-        cover,
-        blocks: updatedBlocks,
-        // Make sure it's not a draft
-        publishedAt: Date.now(),
-      },
-    });
-  }
-}
+//     await createEntry({
+//       model: 'article',
+//       entry: {
+//         ...article,
+//         cover,
+//         blocks: updatedBlocks,
+//         // Make sure it's not a draft
+//         publishedAt: Date.now(),
+//       },
+//     });
+//   }
+// }
 
-async function importGlobal() {
-  const favicon = await checkFileExistsBeforeUpload(['favicon.png']);
-  const shareImage = await checkFileExistsBeforeUpload(['default-image.png']);
-  return createEntry({
-    model: 'global',
-    entry: {
-      ...global,
-      favicon,
-      // Make sure it's not a draft
-      publishedAt: Date.now(),
-      defaultSeo: {
-        ...global.defaultSeo,
-        shareImage,
-      },
-    },
-  });
-}
+// async function importGlobal() {
+//   const favicon = await checkFileExistsBeforeUpload(['favicon.png']);
+//   const shareImage = await checkFileExistsBeforeUpload(['default-image.png']);
+//   return createEntry({
+//     model: 'global',
+//     entry: {
+//       ...global,
+//       favicon,
+//       // Make sure it's not a draft
+//       publishedAt: Date.now(),
+//       defaultSeo: {
+//         ...global.defaultSeo,
+//         shareImage,
+//       },
+//     },
+//   });
+// }
 
-async function importAbout() {
-  const updatedBlocks = await updateBlocks(about.blocks);
+// async function importAbout() {
+//   const cover = await checkFileExistsBeforeUpload([`${about.slug}.jpg`]);
+//   const updatedBlocks = await updateBlocks(about.blocks);
 
-  await createEntry({
-    model: 'about',
-    entry: {
-      ...about,
-      blocks: updatedBlocks,
-      // Make sure it's not a draft
-      publishedAt: Date.now(),
-    },
-  });
-}
+//   await createEntry({
+//     model: 'about',
+//     entry: {
+//       ...about,
+//       cover,
+//       blocks: updatedBlocks,
+//       // Make sure it's not a draft
+//       publishedAt: Date.now(),
+//     },
+//   });
+// }
 
-async function importCategories() {
-  for (const category of categories) {
-    await createEntry({ model: 'category', entry: category });
-  }
-}
+// async function importCategories() {
+//   for (const category of categories) {
+//     await createEntry({
+//       model: 'category',
+//       entry: category,
+//     });
+//   }
+// }
 
-async function importAuthors() {
-  for (const author of authors) {
-    const avatar = await checkFileExistsBeforeUpload([author.avatar]);
-
-    await createEntry({
-      model: 'author',
-      entry: {
-        ...author,
-        avatar,
-      },
-    });
-  }
-}
+// async function importAuthors() {
+//   for (const author of authors) {
+//     const avatar = await checkFileExistsBeforeUpload([`${author.slug}.jpg`]);
+//     await createEntry({
+//       model: 'author',
+//       entry: {
+//         ...author,
+//         avatar,
+//       },
+//     });
+//   }
+// }
 
 async function importSeedData() {
   // Allow read of application content types
@@ -248,11 +252,11 @@ async function importSeedData() {
   });
 
   // Create all entries
-  await importCategories();
-  await importAuthors();
-  await importArticles();
-  await importGlobal();
-  await importAbout();
+  // await importCategories();
+  // await importAuthors();
+  // await importArticles();
+  // await importGlobal();
+  // await importAbout();
 }
 
 async function shouldImportCustomData() {
@@ -405,26 +409,25 @@ async function importCustomData() {
   }
 }
 
-async function main() {
-  const { createStrapi, compileStrapi } = require('@strapi/strapi');
+// async function main() {
+//   const { createStrapi, compileStrapi } = require('@strapi/strapi');
 
-  const appContext = await compileStrapi();
-  const app = await createStrapi(appContext).load();
+//   const appContext = await compileStrapi();
+//   const app = await createStrapi(appContext).load();
 
-  app.log.level = 'error';
+//   app.log.level = 'error';
 
-  await seedExampleApp();
+//   await seedExampleApp();
   
-  // Import custom data after seed data
-  await importCustomData();
-  await app.destroy();
+//   // Import custom data after seed data
+//   await importCustomData();
+//   await app.destroy();
 
-  process.exit(0);
-}
-
+//   process.exit(0);
+// }
 
 module.exports = async () => {
-  await seedExampleApp();
+  // await seedExampleApp(); // DISABLED: Auto-import disabled
   // Import custom data after seed data
-  await importCustomData();
+  // await importCustomData(); // DISABLED: Auto-import disabled
 };
